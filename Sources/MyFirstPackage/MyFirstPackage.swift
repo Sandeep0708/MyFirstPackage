@@ -3,4 +3,8 @@ public struct MyFirstPackage {
 
     public init() {
     }
+
+    public func sayHello() {
+        debugPrint("Hello, This is my first package!")
+    }
 }
